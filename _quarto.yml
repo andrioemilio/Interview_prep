@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "ThamesWater_Andrio_Emilio_Preperation"
+  author: "Andrio Emilio"
+  date: "27/03/2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - bg.qmd
+    - test.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
