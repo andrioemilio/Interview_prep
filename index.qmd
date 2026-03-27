@@ -1,11 +1,9 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+Hi!
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+I'm Andrio, I received a pre-call screening for the performance and risk analyst role here at ThamesWater. I wanted to be proactive and have all my research, preparation and skills in this Quarto book to show my fit for the role. I want to show a balance between my skills so I have written the project to be candid and show my thought process between each chapter. \
+\
+I hope whoever reads this enjoys (including myself)!
 
-```{r}
-1 + 1
-```
-
-
+:)

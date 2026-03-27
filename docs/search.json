@@ -1,0 +1,32 @@
+[
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\ntest\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ThamesWater Andrio Emilio application",
+    "section": "",
+    "text": "Preface\nHi!\nI’m Andrio, I received a pre-call screening for the performance and risk analyst role here at ThamesWater. I wanted to be proactive and have all my research, preparation and skills in this Quarto book to show my fit for the role. I want to show a balance between my skills so I have written the project to be candid and show my thought process between each chapter.\n\nI hope whoever reads this enjoys (including myself)!\n:)",
+    "crumbs": [
+      "Preface"
+    ]
+  }
+]
