@@ -1,4 +1,4 @@
-# Past experience 
+# Past experience
 
 On this page I wanted to briefly map out some past experience and skills in accordance to the job specification.
 
@@ -42,9 +42,9 @@ I used geospatial tools in an applied asset-heavy environment at **Network Rail*
 
 ## Asset based environments
 
-### BI reports 
+### BI reports
 
-I\'ve worked in an asset-based environment through my role at **Network Rail**, where the data and reporting were closely tied to physical infrastructure and operational performance. That meant working with engineering and operational datasets linked to the rail network, and helping teams understand where issues, risks, or constraints were appearing across the assets. I think that experience is relevant because it taught me how to use data not just for reporting, but to support decisions in a complex infrastructure setting
+I've worked in an asset-based environment through my role at **Network Rail**, where the data and reporting were closely tied to physical infrastructure and operational performance. That meant working with engineering and operational datasets linked to the rail network, and helping teams understand where issues, risks, or constraints were appearing across the assets. I think that experience is relevant because it taught me how to use data not just for reporting, but to support decisions in a complex infrastructure setting
 
 One of my main responsibilities at Network Rail was supporting Kent and Sussex track teams through BI reporting. I integrated over 15 data sources into Power BI and used performance measures such as KPIs, speed restrictions, and risk-related reporting to help stakeholders understand how the network was performing. Stakeholders could move away from manual reporting and instead use a more consistent view of performance to prioritise work and track issues over time.
 
@@ -66,43 +66,43 @@ One of my main responsibilities at Network Rail was supporting Kent and Sussex t
 
     > ### Data quality metrics
     >
-    > -    missing values / null counts
+    > -   missing values / null counts
     >
-    > -    duplicate records
+    > -   duplicate records
     >
-    > -    invalid or out-of-range values
+    > -   invalid or out-of-range values
     >
-    > -    consistency of categories / naming
+    > -   consistency of categories / naming
     >
-    > -    unexpected period changes
+    > -   unexpected period changes
     >
-    > -    completeness by source or region
+    > -   completeness by source or region
     >
-    > -    refresh success / failed updates
+    > -   refresh success / failed updates
     >
-    > -    record counts compared with previous periods
+    > -   record counts compared with previous periods
     >
-    > -    percentage change against prior week / quarter / year
+    > -   percentage change against prior week / quarter / year
     >
-    > -    exception counts / flagged anomalies
+    > -   exception counts / flagged anomalies
     >
     > ### Performance metrics
     >
-    > -    KPI movement over time
+    > -   KPI movement over time
     >
-    > -    period-on-period comparisons
+    > -   period-on-period comparisons
     >
-    > -    count of issues / restrictions / events
+    > -   count of issues / restrictions / events
     >
-    > -    trend direction
+    > -   trend direction
     >
-    > -    thresholds breached
+    > -   thresholds breached
     >
-    > -    concentration by area / route / asset group
+    > -   concentration by area / route / asset group
     >
-    > -    backlog / open vs resolved items
+    > -   backlog / open vs resolved items
     >
-    > -    performance against target
+    > -   performance against target
 
 -   List example of collaboration
 
@@ -110,6 +110,6 @@ One of my main responsibilities at Network Rail was supporting Kent and Sussex t
 
 ## Producing detailed reports
 
-I\'ve produced detailed reports in both professional and academic settings. I\'m comfortable adapting the level of detail depending on the audience. At Network Rail, that involved developing reports and presentations based on engineering and operational data. As the aim was to make complex information clear enough for stakeholders to act on. It was important to present the detail accurately while still making the key messages easy to understand.
+I've produced detailed reports in both professional and academic settings. I'm comfortable adapting the level of detail depending on the audience. At Network Rail, that involved developing reports and presentations based on engineering and operational data. As the aim was to make complex information clear enough for stakeholders to act on. It was important to present the detail accurately while still making the key messages easy to understand.
 
-During my master\'s, I also worked on group projects where we had to take technical analysis and present it in a structured and professional way. That helped me build confidence in explaining analytical work clearly. In my dissertation, I worked closely with industry experts to shape the focus of the project and make sure the outputs were relevant as well as technically robust. That experience taught me that producing a strong report is not just about analysis it\'s also about understanding the audience, communicating clearly, and making the findings useful.
+During my master's, I also worked on group projects where we had to take technical analysis and present it in a structured and professional way. That helped me build confidence in explaining analytical work clearly. In my dissertation, I worked closely with industry experts to shape the focus of the project and make sure the outputs were relevant as well as technically robust. That experience taught me that producing a strong report is not just about analysis it's also about understanding the audience, communicating clearly, and making the findings useful.

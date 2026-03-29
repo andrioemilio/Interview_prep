@@ -1,14 +1,14 @@
-# Research 
+# Research
 
 An exciting part of this process is finding out information I didn't already know about Thames Water. I wanted to understand the company through the Andrio Emilio lense and find someinteresting case studies!
 
-## Company overview 
+## Company overview
 
 *"Every day, we serve 16 million customers across London and the Thames Valley. From that first cup of tea in the morning through to baths at bedtime.*
 
 *As well as supplying water to your taps, we take wastewater away. We collect and treat sewage, returning clean water to our rivers.*
 
-*Delivering [life\'s essential service](https://www.thameswater.co.uk/about-us/thames-water-explained), so our customers, communities and environment can thrive. We're here to keep taps flowing for generations to come. Find out more about how we're [upgrading our network](https://www.thameswater.co.uk/about-us/our-biggest-upgrade)."*
+*Delivering [life's essential service](https://www.thameswater.co.uk/about-us/thames-water-explained), so our customers, communities and environment can thrive. We're here to keep taps flowing for generations to come. Find out more about how we're [upgrading our network](https://www.thameswater.co.uk/about-us/our-biggest-upgrade)."*
 
 It is a very informative site, compiling pollution reduction, environmental information, five year plans and assessing performance.
 
@@ -20,7 +20,7 @@ It is a very informative site, compiling pollution reduction, environmental info
 
 -   Digital pages talk about building an **enterprise data platform** on **Databricks Lakehouse**
 
-## Team focus 
+## Team focus
 
 Why is an asset performance analyst essential?
 
@@ -39,51 +39,46 @@ Why is an asset performance analyst essential?
 
 For performance:
 
--    how well is it doing?
+-   how well is it doing?
 
--    is it meeting expected standards?
+-   is it meeting expected standards?
 
--    how many incidents / failures / downtime events are there?
+-   how many incidents / failures / downtime events are there?
 
 For behavioural:
 
--    what pattern does it show?
+-   what pattern does it show?
 
--    when does it tend to go wrong?
+-   when does it tend to go wrong?
 
--    under what conditions does it behave differently?
+-   under what conditions does it behave differently?
 
--    is there a recurring operating signature that suggests risk?
+-   is there a recurring operating signature that suggests risk?
 
 ### Why this is important
 
 ## Case studies
 
-## Policy, ethics and competences 
+## Policy, ethics and competences
 
 -   **Take care**
 
-```{=html}
 <!-- -->
-```
--    **Passionate about everything we do**
 
-```{=html}
-<!-- -->
-```
--    **Be respectful and value everyone**
+-   **Passionate about everything we do**
 
-```{=html}
 <!-- -->
-```
--    **Reach higher, be better**
 
-```{=html}
-<!-- -->
-```
--    **Take ownership**
+-   **Be respectful and value everyone**
 
-```{=html}
 <!-- -->
-```
--    **Be proud, Be blue / Team Thames**
+
+-   **Reach higher, be better**
+
+<!-- -->
+
+-   **Take ownership**
+
+<!-- -->
+
+-   **Be proud, Be blue / Team Thames**
