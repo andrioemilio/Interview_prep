@@ -1,32 +1,162 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ThamesWater Andrio Emilio application",
+    "section": "",
+    "text": "Preface\nHi!\nI’m Andrio, I received a pre-call screening for the performance and risk analyst role here at ThamesWater. I wanted to be proactive and have all my research, preparation and skills in this Quarto book. This is meant to be candid and for my personal use. As such it will show my thought process between each chapter and also my (amazing) personality.\n\nI hope whoever reads this enjoys (including myself)!\n:)",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "Introduction",
+    "title": "Past experience",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\ntest\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Analytical Background",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Past experience</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#analytical-background",
+    "href": "intro.html#analytical-background",
+    "title": "Past experience",
+    "section": "",
+    "text": "Excel\nI have been using excel in the workplace for nearly 10 years now. In my first role I was a data researcher and processor. This involved collecting ONS & local authority data, transforming, cleaning and ultimately providing analysis with visualisations. I primarily used vlookup to join time series data with the next entry. Conditional formatting to track differences and bespoke analysis with pivot charts and pivot tables. This gave me the foundations to transition towards my first analyst role at imperial college London. A hands on role to which I had to give more application and thought towards the processes required to transform and present highly sensitive HR data. Alongside this, I was tasked with more and more data to handle and had to learn automation skills. This led me to developing macros for the use of initial data transformation and soon introduced me to powerBI. Now I use excel sparingly, I have tracker templates to record my response rates for tasks as well as a personal diary. I have also recoreded a systematic review in excel (a database recording features from over 100 academic papers) .\n\n\nSQL\nI have used SQL in tandem with power BI to connect and refresh data for the use of weekly, monthly and annual reports at my role in Network rail. I have completed several modules during my masters study that used SQL. These focused upon creating spatial databases as well as spatial joins. Since, I have completed a 7 week analyst course in which practical application of SQL was used. This involved using SQL to connect to databases, create data, create tables, transfor data, merge, join & append.\n\n\nPower BI\nI have numerous years experience in power BI. This started in my role as a hr information insight analyst at imperial college. In this I created bespoke reports based upon foi requests as well as monthly HR necessary data (such as PTO, sickness and diversity metrics). In my role at network rail I used power BI top create asset based metrics for stakeholders decision making. An example of a project from start to finish would be a vegetation risk asset PBI model report. This tracked from live recorded mothly input data of vegetation risk on the railway. It covered species, protected type and seasonality. It also recorded previous intervention & planned removal. These were refreshed with every new report (usually an excel document) that would then be transformed in M-query to handle anomalous values, different data types and wrong inputs. For stakeholders, they would a live map showing new/planned vegetation management and metric charts & tables to show if they are meeting required quotas.\n\nAsset management project you did at network rail to assess performance of track. Go in depth with charts, spatial visualization and automation and how this benefited stakeholders across the company.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Past experience</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#other-technical-experience",
+    "href": "intro.html#other-technical-experience",
+    "title": "Past experience",
+    "section": "Other technical experience",
+    "text": "Other technical experience\n\nPython\nI have used Python for model creation and analysis of data in my masters studies at UCL. My dissertation project was computed in python and this involved the use of unsupervised/supervised models such as random forest and k means clusters. I have also done some regression analysis and used libraries such as pandas, numpy and scikit learn. Because of this I am used to working in jupyter notebooks and would love the opportunity to pursue this further\n\n\nGeospatial tools\nMy geosptaial knowledge started within my role at network rail and led me to pursue a masters at UCL. I completed an Msc in Urban spatial science in which gave me a strong foundation in geospatial analysis and also allowed me to improve my autonomous skills to meet deadline and choose suitable projects. Because of this I have used a vast range of geospatial data and have a knowledge of many areas, including networks, remote sensing and data science.\nI used geospatial tools in an applied asset-heavy environment at Network Rail. There, I worked with GIS specialists on mapping over 3000 miles of track for the Southern route, helping turn asset and engineering data into more useful visual reporting. I used tools such as ArcGIS, QGIS, and map-based visualisation approaches, and I also integrated Mapbox visuals into Power BI reports so stakeholders could see issues spatially rather than just in tables. That was especially useful for visualising track-related issues and helping teams understand where problems or risk-related areas were concentrated across the network.\n\n\nMS access & databricks\n\nno formal application but have planned time on courses starting next week.\nTraining for access: here\nTraining for databricks: here",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Past experience</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#asset-based-environments",
+    "href": "intro.html#asset-based-environments",
+    "title": "Past experience",
+    "section": "Asset based environments",
+    "text": "Asset based environments\n\nBI reports\nI've worked in an asset-based environment through my role at Network Rail, where the data and reporting were closely tied to physical infrastructure and operational performance. That meant working with engineering and operational datasets linked to the rail network, and helping teams understand where issues, risks, or constraints were appearing across the assets. I think that experience is relevant because it taught me how to use data not just for reporting, but to support decisions in a complex infrastructure setting\nOne of my main responsibilities at Network Rail was supporting Kent and Sussex track teams through BI reporting. I integrated over 15 data sources into Power BI and used performance measures such as KPIs, speed restrictions, and risk-related reporting to help stakeholders understand how the network was performing. Stakeholders could move away from manual reporting and instead use a more consistent view of performance to prioritise work and track issues over time.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Past experience</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#maintenance-communication",
+    "href": "intro.html#maintenance-communication",
+    "title": "Past experience",
+    "section": "Maintenance & communication",
+    "text": "Maintenance & communication\n\nMaintaining existing data management processes, how have you done this before?\n\nMaking sure I understand the process end to end, where data comes from, how its transformed, who will be using and where are the risks.\nYou have had a Microsoft one note diary recording of your systematic review to track when changes were made and what the change was.\nUnderstanding of existing data management processes by communicating and organising meetings with data teams and stakeholders to understand unfamiliar data\nCreating very transparent and available documents for stakeholders and personal use (available in sharepoint) to explain data\nMonitoring key data quality metrics in automated BI report that assesses weekly, quarterly and yearly performance against previous entry.\n\nWhat metrics did you use to present this information? List all the tools, charts and visualisations.\n\nData quality metrics\n\nmissing values / null counts\nduplicate records\ninvalid or out-of-range values\nconsistency of categories / naming\nunexpected period changes\ncompleteness by source or region\nrefresh success / failed updates\nrecord counts compared with previous periods\npercentage change against prior week / quarter / year\nexception counts / flagged anomalies\n\nPerformance metrics\n\nKPI movement over time\nperiod-on-period comparisons\ncount of issues / restrictions / events\ntrend direction\nthresholds breached\nconcentration by area / route / asset group\nbacklog / open vs resolved items\nperformance against target\n\n\nList example of collaboration\n\nNetwork rail vegetation BI report, how you used an iterative continuous improvement process",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Past experience</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#producing-detailed-reports",
+    "href": "intro.html#producing-detailed-reports",
+    "title": "Past experience",
+    "section": "Producing detailed reports",
+    "text": "Producing detailed reports\nI've produced detailed reports in both professional and academic settings. I'm comfortable adapting the level of detail depending on the audience. At Network Rail, that involved developing reports and presentations based on engineering and operational data. As the aim was to make complex information clear enough for stakeholders to act on. It was important to present the detail accurately while still making the key messages easy to understand.\nDuring my master's, I also worked on group projects where we had to take technical analysis and present it in a structured and professional way. That helped me build confidence in explaining analytical work clearly. In my dissertation, I worked closely with industry experts to shape the focus of the project and make sure the outputs were relevant as well as technically robust. That experience taught me that producing a strong report is not just about analysis it's also about understanding the audience, communicating clearly, and making the findings useful.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Past experience</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "Summary",
+    "title": "Research",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "text": "Company overview\n“Every day, we serve 16 million customers across London and the Thames Valley. From that first cup of tea in the morning through to baths at bedtime.\nAs well as supplying water to your taps, we take wastewater away. We collect and treat sewage, returning clean water to our rivers.\nDelivering life's essential service, so our customers, communities and environment can thrive. We’re here to keep taps flowing for generations to come. Find out more about how we’re upgrading our network.”\nIt is a very informative site, compiling pollution reduction, environmental information, five year plans and assessing performance.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Research</span>"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ThamesWater Andrio Emilio application",
+    "objectID": "summary.html#company-overview",
+    "href": "summary.html#company-overview",
+    "title": "Research",
     "section": "",
-    "text": "Preface\nHi!\nI’m Andrio, I received a pre-call screening for the performance and risk analyst role here at ThamesWater. I wanted to be proactive and have all my research, preparation and skills in this Quarto book to show my fit for the role. I want to show a balance between my skills so I have written the project to be candid and show my thought process between each chapter.\n\nI hope whoever reads this enjoys (including myself)!\n:)",
+    "text": "Open data strategy, so data is freely available for everyone to access.\nPR24 five year plan 2025 - 2030. Involving strategy, cost efficiency, expected outcomE and data models.\nBiggest upgrade in 150 years with 20 planned investment focused on reducing pollution protecting water quality and installing over 1 million more smart meters.\nDigital pages talk about building an enterprise data platform on Databricks Lakehouse",
     "crumbs": [
-      "Preface"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Research</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#team-focus",
+    "href": "summary.html#team-focus",
+    "title": "Research",
+    "section": "Team focus",
+    "text": "Team focus\nWhy is an asset performance analyst essential?\n“Asset performance metrics form the foundation of data-driven maintenance, providing continuous visibility into equipment reliability, maintenance efficiency, and operational trends that would otherwise remain hidden.\nTracking the right metrics connects maintenance activities to business outcomes, helping teams reduce unplanned downtime, control costs, extend equipment life, and demonstrate measurable value to leadership.\nAdvanced software platforms automate metric collection and analysis, replacing manual spreadsheets with real-time dashboards, AI-powered insights, and integrated workflows that turn data into action.”\nAssessing performance and behaviour, what does this mean for Thames Water?\nPerformance is about how well the asset is doing\nBehaviour is about the pattern of how the asset acts\n\nFor performance:\n\nhow well is it doing?\nis it meeting expected standards?\nhow many incidents / failures / downtime events are there?\n\nFor behavioural:\n\nwhat pattern does it show?\nwhen does it tend to go wrong?\nunder what conditions does it behave differently?\nis there a recurring operating signature that suggests risk?\n\n\nWhy this is important",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Research</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#case-studies",
+    "href": "summary.html#case-studies",
+    "title": "Research",
+    "section": "Case studies",
+    "text": "Case studies",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Research</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#policy-ethics-and-competences",
+    "href": "summary.html#policy-ethics-and-competences",
+    "title": "Research",
+    "section": "Policy, ethics and competences",
+    "text": "Policy, ethics and competences\n\nTake care\n\n\n\nPassionate about everything we do\n\n\n\nBe respectful and value everyone\n\n\n\nReach higher, be better\n\n\n\nTake ownership\n\n\n\nBe proud, Be blue / Team Thames",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Research</span>"
+    ]
+  },
+  {
+    "objectID": "prep.html",
+    "href": "prep.html",
+    "title": "Preparation",
+    "section": "",
+    "text": "Questions",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "prep.html#questions",
+    "href": "prep.html#questions",
+    "title": "Preparation",
+    "section": "",
+    "text": "1 \"Can you talk me through your background?\"\nI started working in data during my undergraduate degree. In my first year I scored 100% in a business statistics module and this led me to change my degree to analytics. I then sought experience in a Leeds based startup alongside my degree during the second and 3rd year. In this role I was a data researcher and processor. This meant collecting, cleaning, transforming and creating charts for councils using ONS and local authority data. Because of this experience in excel I started my first graduate role and imperial college london. Wherein in the first week my manager gave me a huge power BI book, said learn as much as you can and by the end of the second week I want to see a report from you. This led me to learn power BI and has been a staple for my work. It was especially important as i started my role at network rail, learning asset and engineering data, how to visualise these metrics and understand what data insights stakeholders want to see! With this I got the oportunity to work alongside a lead geospatial scientist, and led to a power BI project of mapping asset faults spatially. This introduced me to geospatial analysis in which I studied a masters in at UCL and scored a distinction.\n\n\n2 \"Why are you interested in this role?\"\nIm interested in the role as it has both familiarity in working within an asset data based environment but also the opportunity to learn how to apply the skills I have learnt and be a part of a winder data team to work for real world data problems to which I can see a clear benefit. I think in the past, especially during my masters degree, I learnt that working alongside stakeholders and experts who wanted to know more about the data in an industry they have expertise in knowing I could do just that. I also think this is a position where I can develop my analytical skills further and keep learning, especially within databricks.\nI'm also drawn to the scale and complexity of the organisation. It's the kind of environment where you have to think carefully, work collaboratively, and make decisions that are both practical and responsible. That really appeals to me, because I enjoy roles where I can contribute in a structured way, take ownership of my work, and help improve how things are done.\n\n\n3 \"What attracted you to a role in asset operations / wastewater / utilities?\"\nThe basis for my application is my prior skills in an asset based environment at network rail. Since this role I have explored other areas within data, including geospatial analysis and research intensive roles. Now I feel that my skills in insight, visualisation and communicating this is well geared toward a role at Thames Water\n\n\n4 \"This is a 1-year fixed-term contract are you comfortable with that?\nYes, this gives me a goal to garner and hone my skills before i commit to the next opportunity.\n\n\n5 \"How strong are you in SQL?\"\nI have experience, creating, querying and transforming data in SQL. In the past I have used SQL to spatially join, extract data for power BI usage and experiment. I have developed a small project on this page to show my basic understanding of SQL. I have also undergone refresher courses to make sure I have the baseline for success in this role.\n\n\n6 \"What kinds of queries / transformations have you written?\"\n\n\n7 \"How have you used Power BI in previous roles?\"\nSTAR Example\nSituation\nTask\nAction\nResult\n\n\n8 \"What dashboards or management reports have you built?\"\nS\nT\nA\nR\n\n\n9 \"Tell me about a time you turned complex analysis into an actionable recommendation.\"\nS\nT\nA\nR\n\n\n10 \"How do you present data to non-technical stakeholders?\"\nS\nT\nA\nR\n\n\n11 \"How do you handle situations where stakeholders want different things from the data?\"\nS\nT\nA\nR\n\n\n12 \"Can you give an example of influencing action through reporting or insight?\"\n\n\n13 How do you deal with data quality problems?\n\n\n14 Have you worked with operational / asset / infrastructure data before?\n\n\n15 Tell me about a time you improved data quality or a reporting process.\n\n\n16 Tell me about a time you identified a risk or performance issue from data.\n\n\n17 \"What kinds of statistical modelling have you done?\"\nMy experience ranges from practical operational analysis to more formal modelling. In academic and research settings, I've used Python-based modelling, geospatial analysis and machine learning approaches to identify patterns and relationships in data. In more operational roles, statistical modelling has been more about trend analysis, KPI monitoring, anomaly detection, and identifying where performance patterns may indicate risk or require further investigation.\n\n\n18 The role mentions statistical modelling. What does that mean to you in practice?\"\nResponse:\n\"To me, statistical modelling in practice is about using data in a structured way to understand performance, identify patterns, and support decisions. It can include more advanced predictive techniques, but in many operational roles it also means applying methods like trend analysis, KPI monitoring, and anomaly detection. Trend analysis is about looking at how a metric changes over time to understand whether performance is stable, improving, or deteriorating. KPI monitoring is about tracking the most important measures against targets, thresholds, or expected ranges so it is clear where performance is on track and where it may need attention. Anomaly detection is about spotting values or patterns that fall outside what would normally be expected, which can help flag possible operational issues, emerging risk, or data quality problems. So overall, I'd describe statistical modelling as using data systematically to move beyond simple reporting and help identify where further investigation or action may be needed.\"\n\n\n19 Can you explain a time when you had to analyze a complex set of data and make recommendations based on your findings?\n\n\n20. How would you handle disagreements with management about your analysis?\n\n\n21 What methods do you use to ensure data accuracy?\n\n\n22 How do you ensure that your analytics reports are easily understood by non-analytic professionals?\n\n\n23 How do you ensure that your analytics reports are easily understood by non-analytic professionals?\n\n\n24 What experience do you have with data visualization tools?\n\n\n25 How do you handle large data sets?\n\n\n26 Can you describe a situation where you had to use analytical skills to solve a problem?\n\n\n27 Can you explain a time when your analysis led to a considerable improvement in business performance?\n\n\n28 What techniques do you use in qualitative data analysis?\n\n\n29 How do you prioritize your analysis when dealing with multiple projects?\n\n\n30 How comfortable are you with presenting your findings to a senior management team?\n\n\n31 How do you validate the reliability and consistency of your data?\nTell us about a time you did team work? Tell us when you used initiative? Tell us about a time you had to draft something from scratch?\n\n\n32 How have you monitored data quality metrics in reporting?\"\nResponse:\n\"I've approached that by building reporting that does not only show performance outcomes, but also helps assess whether the data and metrics are behaving as expected over time. For example, I'd look at consistency across weekly, quarterly, and yearly reporting periods, compare current entries against previous ones, and flag unexpected changes, missing values, unusual spikes, or inconsistencies. The purpose is to make it easier to distinguish between a genuine operational change and something that may be a data issue.\"\n\n\n33 What have you done to keep data processes organised and reliable?\"\nResponse:\n\"I usually approach that in three parts. First, I build understanding by speaking to the people closest to the data, especially when a dataset or process is unfamiliar. That helps me understand the source, logic, and any known issues. Second, I document things clearly, both for myself and for others, so there's transparency around definitions, changes, and assumptions. For example, I've kept structured change records in OneNote and created clear reference documents for stakeholders in shared spaces like SharePoint. Third, I monitor the outputs through reporting and data quality checks, so if something changes or degrades, it can be picked up early.\"",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "ExcelStudy.html",
+    "href": "ExcelStudy.html",
+    "title": "EXCEL",
+    "section": "",
+    "text": "Undertaking performance and behavioural analysis on waste network assets\n Interventions are actively tracked to ensure timely and effective delivery against planned outcomes.\nUsing thameswater total daily flow data - multiple years.\n\nHow would you clean this data set, think by column, transforming the data types making sure is numerical etc etc, making sure data is input correctly.\nHow would you then make use of a vlookup\nMake use of conditional formatting\nMake use of pivot tables and charts\nThen introduce multiple years.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>EXCEL</span>"
+    ]
+  },
+  {
+    "objectID": "PowerBIStudy.html",
+    "href": "PowerBIStudy.html",
+    "title": "Power BI",
+    "section": "",
+    "text": "Produce a small powerBI report that is fully automated, self refreshes and has rules to send to stakeholders. Show how you connect to SQL and excel and how you use M-query to transform data before using DAX. Set text rules to provide contextual information of data ie ‘this week _ location has under performed in comparison to all other locations’\ninterpreting asset and operational data to identify performance trends and risk insights, and sharing findings using clear visualisations and commentary",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Power BI</span>"
     ]
   }
 ]

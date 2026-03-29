@@ -1,0 +1,885 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  letterpaper,
+]{scrbook}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\ifLuaTeX
+  \usepackage{luacolor}
+  \usepackage[soul]{lua-ul}
+\else
+  \usepackage{soul}
+  
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={ThamesWater Andrio Emilio application},
+  pdfauthor={Andrio Emilio},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{ThamesWater Andrio Emilio application}
+\author{Andrio Emilio}
+\date{}
+
+\begin{document}
+\frontmatter
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\mainmatter
+\bookmarksetup{startatroot}
+
+\chapter*{Preface}\label{preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+\markboth{Preface}{Preface}
+
+Hi!
+
+I'm Andrio, I received a pre-call screening for the performance and risk
+analyst role here at ThamesWater. I wanted to be proactive and have all
+my research, preparation and skills in this Quarto book. This is meant
+to be candid and for my personal use. As such it will show my thought
+process between each chapter and also my (amazing) personality.\\
+\strut \\
+I hope whoever reads this enjoys (including myself)!
+
+:)
+
+\bookmarksetup{startatroot}
+
+\chapter{Past experience}\label{past-experience}
+
+On this page I wanted to briefly map out some past experience and skills
+in accordance to the job specification.
+
+I've stuck on a candle and a famous Andrio Emilio spotify playlist so
+lets go!
+
+\section{Analytical Background}\label{analytical-background}
+
+\subsection{Excel}\label{excel}
+
+I have been using excel in the workplace for nearly 10 years now. In my
+first role I was a data researcher and processor. This involved
+collecting ONS \& local authority data, transforming, cleaning and
+ultimately providing analysis with visualisations. I primarily used
+vlookup to join time series data with the next entry. Conditional
+formatting to track differences and bespoke analysis with pivot charts
+and pivot tables. This gave me the foundations to transition towards my
+first analyst role at imperial college London. A hands on role to which
+I had to give more application and thought towards the processes
+required to transform and present highly sensitive HR data. Alongside
+this, I was tasked with more and more data to handle and had to learn
+automation skills. This led me to developing macros for the use of
+initial data transformation and soon introduced me to powerBI. Now I use
+excel sparingly, I have tracker templates to record my response rates
+for tasks as well as a personal diary. I have also recoreded a
+systematic review in excel (a database recording features from over 100
+academic papers) .
+
+\subsection{SQL}\label{sql}
+
+I have used SQL in tandem with power BI to connect and refresh data for
+the use of weekly, monthly and annual reports at my role in Network
+rail. I have completed several modules during my masters study that used
+SQL. These focused upon creating spatial databases as well as spatial
+joins. Since, I have completed a 7 week analyst course in which
+practical application of SQL was used. This involved using SQL to
+connect to databases, create data, create tables, transfor data, merge,
+join \& append.
+
+\subsection{Power BI}\label{power-bi}
+
+I have numerous years experience in power BI. This started in my role as
+a hr information insight analyst at imperial college. In this I created
+bespoke reports based upon foi requests as well as monthly HR necessary
+data (such as PTO, sickness and diversity metrics). In my role at
+network rail I used power BI top create asset based metrics for
+stakeholders decision making. An example of a project from start to
+finish would be a vegetation risk asset PBI model report. This tracked
+from live recorded mothly input data of vegetation risk on the railway.
+It covered species, protected type and seasonality. It also recorded
+previous intervention \& planned removal. These were refreshed with
+every new report (usually an excel document) that would then be
+transformed in M-query to handle anomalous values, different data types
+and wrong inputs. For stakeholders, they would a live map showing
+new/planned vegetation management and metric charts \& tables to show if
+they are meeting required quotas.
+
+\begin{itemize}
+\tightlist
+\item
+  Asset management project you did at network rail to assess performance
+  of track. Go in depth with charts, spatial visualization and
+  automation and how this benefited stakeholders across the company.
+\end{itemize}
+
+\section{Other technical experience}\label{other-technical-experience}
+
+\subsection{Python}\label{python}
+
+I have used Python for model creation and analysis of data in my masters
+studies at UCL. My dissertation project was computed in python and this
+involved the use of unsupervised/supervised models such as random forest
+and k means clusters. I have also done some regression analysis and used
+libraries such as pandas, numpy and scikit learn. Because of this I am
+used to working in jupyter notebooks and would love the opportunity to
+pursue this further
+
+\subsection{Geospatial tools}\label{geospatial-tools}
+
+My geosptaial knowledge started within my role at network rail and led
+me to pursue a masters at UCL. I completed an Msc in Urban spatial
+science in which gave me a strong foundation in geospatial analysis and
+also allowed me to improve my autonomous skills to meet deadline and
+choose suitable projects. Because of this I have used a vast range of
+geospatial data and have a knowledge of many areas, including networks,
+remote sensing and data science.
+
+I used geospatial tools in an applied asset-heavy environment at
+\textbf{Network Rail}. There, I worked with GIS specialists on mapping
+over 3000 miles of track for the Southern route, helping turn asset and
+engineering data into more useful visual reporting. I used tools such as
+\textbf{ArcGIS, QGIS}, and map-based visualisation approaches, and I
+also integrated \textbf{Mapbox visuals into Power BI reports} so
+stakeholders could see issues spatially rather than just in tables. That
+was especially useful for visualising track-related issues and helping
+teams understand where problems or risk-related areas were concentrated
+across the network.
+
+\subsection{MS access \& databricks}\label{ms-access-databricks}
+
+\begin{itemize}
+\item
+  no formal application but have planned time on courses starting next
+  week.
+
+  Training for access:
+  \href{https://support.microsoft.com/en-us/office/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6}{here}
+
+  Training for databricks:
+  \href{https://learn.microsoft.com/en-us/training/paths/data-engineer-azure-databricks/}{here}
+\end{itemize}
+
+\section{Asset based environments}\label{asset-based-environments}
+
+\subsection{BI reports}\label{bi-reports}
+
+I\textquotesingle ve worked in an asset-based environment through my
+role at \textbf{Network Rail}, where the data and reporting were closely
+tied to physical infrastructure and operational performance. That meant
+working with engineering and operational datasets linked to the rail
+network, and helping teams understand where issues, risks, or
+constraints were appearing across the assets. I think that experience is
+relevant because it taught me how to use data not just for reporting,
+but to support decisions in a complex infrastructure setting
+
+One of my main responsibilities at Network Rail was supporting Kent and
+Sussex track teams through BI reporting. I integrated over 15 data
+sources into Power BI and used performance measures such as KPIs, speed
+restrictions, and risk-related reporting to help stakeholders understand
+how the network was performing. Stakeholders could move away from manual
+reporting and instead use a more consistent view of performance to
+prioritise work and track issues over time.
+
+\section{Maintenance \& communication}\label{maintenance-communication}
+
+\begin{itemize}
+\item
+  Maintaining existing data management processes, how have you done this
+  before?
+
+  \begin{quote}
+  Making sure I understand the process end to end, where data comes
+  from, how its transformed, who will be using and where are the risks.
+
+  You have had a Microsoft one note diary recording of your systematic
+  review to track when changes were made and what the change was.
+
+  Understanding of existing data management processes by communicating
+  and organising meetings with data teams and stakeholders to understand
+  unfamiliar data
+
+  Creating very transparent and available documents for stakeholders and
+  personal use (available in sharepoint) to explain data
+
+  Monitoring key data quality metrics in automated BI report that
+  assesses weekly, quarterly and yearly performance against previous
+  entry.
+  \end{quote}
+\item
+  What metrics did you use to present this information? List all the
+  tools, charts and visualisations.
+
+  \begin{quote}
+  \subsection{Data quality metrics}\label{data-quality-metrics}
+
+  \begin{itemize}
+  \item
+    missing values / null counts
+  \item
+    duplicate records
+  \item
+    invalid or out-of-range values
+  \item
+    consistency of categories / naming
+  \item
+    unexpected period changes
+  \item
+    completeness by source or region
+  \item
+    refresh success / failed updates
+  \item
+    record counts compared with previous periods
+  \item
+    percentage change against prior week / quarter / year
+  \item
+    exception counts / flagged anomalies
+  \end{itemize}
+
+  \subsection{Performance metrics}\label{performance-metrics}
+
+  \begin{itemize}
+  \item
+    KPI movement over time
+  \item
+    period-on-period comparisons
+  \item
+    count of issues / restrictions / events
+  \item
+    trend direction
+  \item
+    thresholds breached
+  \item
+    concentration by area / route / asset group
+  \item
+    backlog / open vs resolved items
+  \item
+    performance against target
+  \end{itemize}
+  \end{quote}
+\item
+  List example of collaboration
+
+  \begin{quote}
+  Network rail vegetation BI report, how you used an iterative
+  continuous improvement process
+  \end{quote}
+\end{itemize}
+
+\section{Producing detailed reports}\label{producing-detailed-reports}
+
+I\textquotesingle ve produced detailed reports in both professional and
+academic settings. I\textquotesingle m comfortable adapting the level of
+detail depending on the audience. At Network Rail, that involved
+developing reports and presentations based on engineering and
+operational data. As the aim was to make complex information clear
+enough for stakeholders to act on. It was important to present the
+detail accurately while still making the key messages easy to
+understand.
+
+During my master\textquotesingle s, I also worked on group projects
+where we had to take technical analysis and present it in a structured
+and professional way. That helped me build confidence in explaining
+analytical work clearly. In my dissertation, I worked closely with
+industry experts to shape the focus of the project and make sure the
+outputs were relevant as well as technically robust. That experience
+taught me that producing a strong report is not just about analysis
+it\textquotesingle s also about understanding the audience,
+communicating clearly, and making the findings useful.
+
+\bookmarksetup{startatroot}
+
+\chapter{Research}\label{research}
+
+An exciting part of this process is finding out information I didn't
+already know about Thames Water. I wanted to understand the company
+through the Andrio Emilio lense and find someinteresting case studies!
+
+\section{Company overview}\label{company-overview}
+
+\emph{``Every day, we serve 16 million customers across London and the
+Thames Valley. From that first cup of tea in the morning through to
+baths at bedtime.}
+
+\emph{As well as supplying water to your taps, we take wastewater away.
+We collect and treat sewage, returning clean water to our rivers.}
+
+\emph{Delivering~\href{https://www.thameswater.co.uk/about-us/thames-water-explained}{life\textquotesingle s
+essential service}, so our customers, communities and environment can
+thrive. We're here to keep taps flowing for generations to come. Find
+out more about how
+we're~\href{https://www.thameswater.co.uk/about-us/our-biggest-upgrade}{upgrading
+our network}.''}
+
+It is a very informative site, compiling pollution reduction,
+environmental information, five year plans and assessing performance.
+
+\begin{itemize}
+\item
+  Open data strategy, so data is freely available for everyone to
+  access.
+\item
+  PR24 five year plan 2025 - 2030. Involving strategy, cost efficiency,
+  expected outcomE and data models.
+\item
+  Biggest upgrade in 150 years with 20 planned investment focused on
+  reducing pollution protecting water quality and installing over 1
+  million more smart meters.
+\item
+  Digital pages talk about building an \textbf{enterprise data platform}
+  on \textbf{Databricks Lakehouse}
+\end{itemize}
+
+\section{Team focus}\label{team-focus}
+
+Why is an asset performance analyst essential?
+
+\emph{``Asset performance metrics form the foundation of data-driven
+maintenance, providing continuous visibility into equipment reliability,
+maintenance efficiency, and operational trends that would otherwise
+remain hidden.}
+
+\emph{Tracking the right metrics connects maintenance activities to
+business outcomes, helping teams reduce unplanned downtime, control
+costs, extend equipment life, and demonstrate measurable value to
+leadership.}
+
+\emph{Advanced software platforms automate metric collection and
+analysis, replacing manual spreadsheets with real-time dashboards,
+AI-powered insights, and integrated workflows that turn data into
+action.}''
+
+\textbf{Assessing performance and behaviour, what does this mean for
+Thames Water?}
+
+\ul{Performance is about how well the asset is doing}
+
+\ul{Behaviour is about the pattern of how the asset acts\\
+}
+
+For performance:
+
+\begin{itemize}
+\item
+  how well is it doing?
+\item
+  is it meeting expected standards?
+\item
+  how many incidents / failures / downtime events are there?
+\end{itemize}
+
+For behavioural:
+
+\begin{itemize}
+\item
+  what pattern does it show?
+\item
+  when does it tend to go wrong?
+\item
+  under what conditions does it behave differently?
+\item
+  is there a recurring operating signature that suggests risk?
+\end{itemize}
+
+\subsection{Why this is important}\label{why-this-is-important}
+
+\section{Case studies}\label{case-studies}
+
+\section{Policy, ethics and
+competences}\label{policy-ethics-and-competences}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Take care}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Passionate about everything we do}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Be respectful and value everyone}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Reach higher, be better}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Take ownership}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Be proud, Be blue / Team Thames}
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{Preparation}\label{preparation}
+
+\section{Questions}\label{questions}
+
+\subsection{1 "Can you talk me through your
+background?"}\label{can-you-talk-me-through-your-background}
+
+I started working in data during my undergraduate degree. In my first
+year I scored 100\% in a business statistics module and this led me to
+change my degree to analytics. I then sought experience in a Leeds based
+startup alongside my degree during the second and 3rd year. In this role
+I was a data researcher and processor. This meant collecting, cleaning,
+transforming and creating charts for councils using ONS and local
+authority data. Because of this experience in excel I started my first
+graduate role and imperial college london. Wherein in the first week my
+manager gave me a huge power BI book, said learn as much as you can and
+by the end of the second week I want to see a report from you. This led
+me to learn power BI and has been a staple for my work. It was
+especially important as i started my role at network rail, learning
+asset and engineering data, how to visualise these metrics and
+understand what data insights stakeholders want to see! With this I got
+the oportunity to work alongside a lead geospatial scientist, and led to
+a power BI project of mapping asset faults spatially. This introduced me
+to geospatial analysis in which I studied a masters in at UCL and scored
+a distinction.
+
+\subsection{2 "Why are you interested in this
+role?"}\label{why-are-you-interested-in-this-role}
+
+Im interested in the role as it has both familiarity in working within
+an asset data based environment but also the opportunity to learn how to
+apply the skills I have learnt and be a part of a winder data team to
+work for real world data problems to which I can see a clear benefit. I
+think in the past, especially during my masters degree, I learnt that
+working alongside stakeholders and experts who wanted to know more about
+the data in an industry they have expertise in knowing I could do just
+that. I also think this is a position where I can develop my analytical
+skills further and keep learning, especially within databricks.
+
+I\textquotesingle m also drawn to the scale and complexity of the
+organisation. It\textquotesingle s the kind of environment where you
+have to think carefully, work collaboratively, and make decisions that
+are both practical and responsible. That really appeals to me, because I
+enjoy roles where I can contribute in a structured way, take ownership
+of my work, and help improve how things are done.
+
+\subsection{3 "What attracted you to a role in asset operations /
+wastewater /
+utilities?"}\label{what-attracted-you-to-a-role-in-asset-operations-wastewater-utilities}
+
+The basis for my application is my prior skills in an asset based
+environment at network rail. Since this role I have explored other areas
+within data, including geospatial analysis and research intensive roles.
+Now I feel that my skills in insight, visualisation and communicating
+this is well geared toward a role at Thames Water
+
+\subsection{4 "This is a 1-year fixed-term contract are you comfortable
+with
+that?}\label{this-is-a-1-year-fixed-term-contract-are-you-comfortable-with-that}
+
+Yes, this gives me a goal to garner and hone my skills before i commit
+to the next opportunity.
+
+\subsection{5 "How strong are you in
+SQL?"}\label{how-strong-are-you-in-sql}
+
+I have experience, creating, querying and transforming data in SQL. In
+the past I have used SQL to spatially join, extract data for power BI
+usage and experiment. I have developed a small project on this page to
+show my basic understanding of SQL. I have also undergone refresher
+courses to make sure I have the baseline for success in this role.
+
+\subsection{\texorpdfstring{6 \textbf{"What kinds of queries /
+transformations have you
+written?"}}{6 "What kinds of queries / transformations have you written?"}}\label{what-kinds-of-queries-transformations-have-you-written}
+
+\subsection{7 "How have you used Power BI in previous
+roles?"}\label{how-have-you-used-power-bi-in-previous-roles}
+
+STAR Example
+
+Situation
+
+Task
+
+Action
+
+Result
+
+\subsection{8 "What dashboards or management reports have you
+built?"}\label{what-dashboards-or-management-reports-have-you-built}
+
+S
+
+T
+
+A
+
+R
+
+\subsection{9 "Tell me about a time you turned complex analysis into an
+actionable
+recommendation."}\label{tell-me-about-a-time-you-turned-complex-analysis-into-an-actionable-recommendation.}
+
+S
+
+T
+
+A
+
+R
+
+\subsection{10 "How do you present data to non-technical
+stakeholders?"}\label{how-do-you-present-data-to-non-technical-stakeholders}
+
+S
+
+T
+
+A
+
+R
+
+\subsection{11 "How do you handle situations where stakeholders want
+different things from the
+data?"}\label{how-do-you-handle-situations-where-stakeholders-want-different-things-from-the-data}
+
+S
+
+T
+
+A
+
+R
+
+\subsection{12 "Can you give an example of influencing action through
+reporting or
+insight?"}\label{can-you-give-an-example-of-influencing-action-through-reporting-or-insight}
+
+\subsection{13 How do you deal with data quality
+problems?}\label{how-do-you-deal-with-data-quality-problems}
+
+\subsection{14 Have you worked with operational / asset / infrastructure
+data
+before?}\label{have-you-worked-with-operational-asset-infrastructure-data-before}
+
+\subsection{15 Tell me about a time you improved data quality or a
+reporting
+process.}\label{tell-me-about-a-time-you-improved-data-quality-or-a-reporting-process.}
+
+\subsection{16 Tell me about a time you identified a risk or performance
+issue from
+data.}\label{tell-me-about-a-time-you-identified-a-risk-or-performance-issue-from-data.}
+
+\subsection{17 "What kinds of statistical modelling have you
+done?"}\label{what-kinds-of-statistical-modelling-have-you-done}
+
+My experience ranges from practical operational analysis to more formal
+modelling. In academic and research settings, I\textquotesingle ve used
+Python-based modelling, geospatial analysis and machine learning
+approaches to identify patterns and relationships in data. In more
+operational roles, statistical modelling has been more about trend
+analysis, KPI monitoring, anomaly detection, and identifying where
+performance patterns may indicate risk or require further investigation.
+
+\subsection{\texorpdfstring{18 \textbf{The role mentions statistical
+modelling. What does that mean to you in
+practice?"}}{18 The role mentions statistical modelling. What does that mean to you in practice?"}}\label{the-role-mentions-statistical-modelling.-what-does-that-mean-to-you-in-practice}
+
+\textbf{Response:}\\
+"To me, statistical modelling in practice is about using data in a
+structured way to understand performance, identify patterns, and support
+decisions. It can include more advanced predictive techniques, but in
+many operational roles it also means applying methods like trend
+analysis, KPI monitoring, and anomaly detection. Trend analysis is about
+looking at how a metric changes over time to understand whether
+performance is stable, improving, or deteriorating. KPI monitoring is
+about tracking the most important measures against targets, thresholds,
+or expected ranges so it is clear where performance is on track and
+where it may need attention. Anomaly detection is about spotting values
+or patterns that fall outside what would normally be expected, which can
+help flag possible operational issues, emerging risk, or data quality
+problems. So overall, I\textquotesingle d describe statistical modelling
+as using data systematically to move beyond simple reporting and help
+identify where further investigation or action may be needed."
+
+\subsection{\texorpdfstring{\textbf{19 Can you explain a time when you
+had to analyze a complex set of data and make recommendations based on
+your
+findings?}}{19 Can you explain a time when you had to analyze a complex set of data and make recommendations based on your findings?}}\label{can-you-explain-a-time-when-you-had-to-analyze-a-complex-set-of-data-and-make-recommendations-based-on-your-findings}
+
+\subsection{\texorpdfstring{\textbf{20. How would you handle
+disagreements with management about your
+analysis?}}{20. How would you handle disagreements with management about your analysis?}}\label{how-would-you-handle-disagreements-with-management-about-your-analysis}
+
+\subsection{\texorpdfstring{\textbf{21 What methods do you use to ensure
+data
+accuracy?}}{21 What methods do you use to ensure data accuracy?}}\label{what-methods-do-you-use-to-ensure-data-accuracy}
+
+\subsection{\texorpdfstring{\textbf{22 How do you ensure that your
+analytics reports are easily understood by non-analytic
+professionals?}}{22 How do you ensure that your analytics reports are easily understood by non-analytic professionals?}}\label{how-do-you-ensure-that-your-analytics-reports-are-easily-understood-by-non-analytic-professionals}
+
+\subsection{\texorpdfstring{\textbf{23 How do you ensure that your
+analytics reports are easily understood by non-analytic
+professionals?}}{23 How do you ensure that your analytics reports are easily understood by non-analytic professionals?}}\label{how-do-you-ensure-that-your-analytics-reports-are-easily-understood-by-non-analytic-professionals-1}
+
+\subsection{\texorpdfstring{\textbf{24 What experience do you have with
+data visualization
+tools?}}{24 What experience do you have with data visualization tools?}}\label{what-experience-do-you-have-with-data-visualization-tools}
+
+\subsection{\texorpdfstring{\textbf{25 How do you handle large data
+sets?}}{25 How do you handle large data sets?}}\label{how-do-you-handle-large-data-sets}
+
+\subsection{\texorpdfstring{\textbf{26 Can you describe a situation
+where you had to use analytical skills to solve a
+problem?}}{26 Can you describe a situation where you had to use analytical skills to solve a problem?}}\label{can-you-describe-a-situation-where-you-had-to-use-analytical-skills-to-solve-a-problem}
+
+\subsection{\texorpdfstring{\textbf{27 Can you explain a time when your
+analysis led to a considerable improvement in business
+performance?}}{27 Can you explain a time when your analysis led to a considerable improvement in business performance?}}\label{can-you-explain-a-time-when-your-analysis-led-to-a-considerable-improvement-in-business-performance}
+
+\subsection{\texorpdfstring{\textbf{28 What techniques do you use in
+qualitative data
+analysis?}}{28 What techniques do you use in qualitative data analysis?}}\label{what-techniques-do-you-use-in-qualitative-data-analysis}
+
+\subsection{\texorpdfstring{\textbf{29 How do you prioritize your
+analysis when dealing with multiple
+projects?}}{29 How do you prioritize your analysis when dealing with multiple projects?}}\label{how-do-you-prioritize-your-analysis-when-dealing-with-multiple-projects}
+
+\subsection{\texorpdfstring{\textbf{30 How comfortable are you with
+presenting your findings to a senior management
+team?}}{30 How comfortable are you with presenting your findings to a senior management team?}}\label{how-comfortable-are-you-with-presenting-your-findings-to-a-senior-management-team}
+
+\subsection{\texorpdfstring{\textbf{31 How do you validate the
+reliability and consistency of your
+data?}}{31 How do you validate the reliability and consistency of your data?}}\label{how-do-you-validate-the-reliability-and-consistency-of-your-data}
+
+Tell us about a time you did team work? Tell us when you used
+initiative? Tell us about a time you had to draft something from
+scratch?
+
+\subsection{\texorpdfstring{\textbf{32 How have you monitored data
+quality metrics in
+reporting?"}}{32 How have you monitored data quality metrics in reporting?"}}\label{how-have-you-monitored-data-quality-metrics-in-reporting}
+
+\textbf{Response:}\\
+"I\textquotesingle ve approached that by building reporting that does
+not only show performance outcomes, but also helps assess whether the
+data and metrics are behaving as expected over time. For example,
+I\textquotesingle d look at consistency across weekly, quarterly, and
+yearly reporting periods, compare current entries against previous ones,
+and flag unexpected changes, missing values, unusual spikes, or
+inconsistencies. The purpose is to make it easier to distinguish between
+a genuine operational change and something that may be a data issue."
+
+\subsection{\texorpdfstring{\textbf{33 What have you done to keep data
+processes organised and
+reliable?"}}{33 What have you done to keep data processes organised and reliable?"}}\label{what-have-you-done-to-keep-data-processes-organised-and-reliable}
+
+\textbf{Response:}\\
+"I usually approach that in three parts. First, I build understanding by
+speaking to the people closest to the data, especially when a dataset or
+process is unfamiliar. That helps me understand the source, logic, and
+any known issues. Second, I document things clearly, both for myself and
+for others, so there\textquotesingle s transparency around definitions,
+changes, and assumptions. For example, I\textquotesingle ve kept
+structured change records in OneNote and created clear reference
+documents for stakeholders in shared spaces like SharePoint. Third, I
+monitor the outputs through reporting and data quality checks, so if
+something changes or degrades, it can be picked up early."
+
+\bookmarksetup{startatroot}
+
+\chapter{EXCEL}\label{excel-1}
+
+\begin{itemize}
+\item
+  Undertaking performance and behavioural analysis on waste network
+  assets
+\item
+  ~Interventions are actively tracked to ensure timely and effective
+  delivery against planned outcomes.
+\item
+  Using thameswater total daily flow data - multiple years.
+
+  \begin{itemize}
+  \item
+    How would you clean this data set, think by column, transforming the
+    data types making sure is numerical etc etc, making sure data is
+    input correctly.
+  \item
+    How would you then make use of a vlookup
+  \item
+    Make use of conditional formatting
+  \item
+    Make use of pivot tables and charts
+  \item
+    Then introduce multiple years.
+  \end{itemize}
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{SQL}\label{sql-1}
+
+\bookmarksetup{startatroot}
+
+\chapter{Power BI}\label{power-bi-1}
+
+\begin{itemize}
+\item
+\item
+  Produce a small powerBI report that is fully automated, self refreshes
+  and has rules to send to stakeholders. Show how you connect to SQL and
+  excel and how you use M-query to transform data before using DAX. Set
+  text rules to provide contextual information of data ie `this week \_
+  location has under performed in comparison to all other locations'
+\item
+  interpreting asset and operational data to identify performance trends
+  and risk insights, and sharing findings using clear visualisations and
+  commentary
+\end{itemize}
+
+
+\backmatter
+
+\end{document}

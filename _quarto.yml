@@ -29,7 +29,7 @@ book:
     - ExcelStudy.qmd
     - SQLStudy.qmd
     - PowerBIStudy.qmd
-    - PythonAnalysis.qmd
+
 
 bibliography: references.bib
 

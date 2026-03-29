@@ -1,3 +1,7 @@
+# Power BI 
+
+-   
+
 -   Produce a small powerBI report that is fully automated, self refreshes and has rules to send to stakeholders. Show how you connect to SQL and excel and how you use M-query to transform data before using DAX. Set text rules to provide contextual information of data ie 'this week \_ location has under performed in comparison to all other locations'
 
 -   interpreting asset and operational data to identify performance trends and risk insights, and sharing findings using clear visualisations and commentary
