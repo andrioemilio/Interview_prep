@@ -5,9 +5,9 @@ project:
 book:
   title: "ThamesWater Andrio Emilio application"
   author: "Andrio Emilio"
-  favicon: "logo.png"
+  favicon: images/logo.png
   navbar:
-    logo: "logo.png"
+    logo: images/logo.png
     collapse: true
     collapse-below: lg
     background: light
@@ -36,6 +36,7 @@ bibliography: references.bib
 format:
   html:
     title-block-banner: images/banner.jpg
+    css: styles.css
     #cover-image: img/casa.png
   #css: textures.css
     theme: 
