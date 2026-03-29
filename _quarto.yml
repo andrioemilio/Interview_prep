@@ -25,7 +25,11 @@ book:
     - index.qmd
     - intro.qmd
     - summary.qmd
-    - test.qmd
+    - prep.qmd
+    - ExcelStudy.qmd
+    - SQLStudy.qmd
+    - PowerBIStudy.qmd
+    - PythonAnalysis.qmd
 
 bibliography: references.bib
 

@@ -1,11 +1,115 @@
-# Introduction
+# Past experience 
 
-This is a book created from markdown and executable code.
+On this page I wanted to briefly map out some past experience and skills in accordance to the job specification.
 
-See @knuth84 for additional discussion of literate programming.
+I've stuck on a candle and a famous Andrio Emilio spotify playlist so lets go!
 
-```{r}
-1 + 1
-```
+## Analytical Background
 
-test
+### Excel
+
+I have been using excel in the workplace for nearly 10 years now. In my first role I was a data researcher and processor. This involved collecting ONS & local authority data, transforming, cleaning and ultimately providing analysis with visualisations. I primarily used vlookup to join time series data with the next entry. Conditional formatting to track differences and bespoke analysis with pivot charts and pivot tables. This gave me the foundations to transition towards my first analyst role at imperial college London. A hands on role to which I had to give more application and thought towards the processes required to transform and present highly sensitive HR data. Alongside this, I was tasked with more and more data to handle and had to learn automation skills. This led me to developing macros for the use of initial data transformation and soon introduced me to powerBI. Now I use excel sparingly, I have tracker templates to record my response rates for tasks as well as a personal diary. I have also recoreded a systematic review in excel (a database recording features from over 100 academic papers) .
+
+### SQL
+
+I have used SQL in tandem with power BI to connect and refresh data for the use of weekly, monthly and annual reports at my role in Network rail. I have completed several modules during my masters study that used SQL. These focused upon creating spatial databases as well as spatial joins. Since, I have completed a 7 week analyst course in which practical application of SQL was used. This involved using SQL to connect to databases, create data, create tables, transfor data, merge, join & append.
+
+### Power BI
+
+I have numerous years experience in power BI. This started in my role as a hr information insight analyst at imperial college. In this I created bespoke reports based upon foi requests as well as monthly HR necessary data (such as PTO, sickness and diversity metrics). In my role at network rail I used power BI top create asset based metrics for stakeholders decision making. An example of a project from start to finish would be a vegetation risk asset PBI model report. This tracked from live recorded mothly input data of vegetation risk on the railway. It covered species, protected type and seasonality. It also recorded previous intervention & planned removal. These were refreshed with every new report (usually an excel document) that would then be transformed in M-query to handle anomalous values, different data types and wrong inputs. For stakeholders, they would a live map showing new/planned vegetation management and metric charts & tables to show if they are meeting required quotas.
+
+-   Asset management project you did at network rail to assess performance of track. Go in depth with charts, spatial visualization and automation and how this benefited stakeholders across the company.
+
+## Other technical experience
+
+### Python
+
+I have used Python for model creation and analysis of data in my masters studies at UCL. My dissertation project was computed in python and this involved the use of unsupervised/supervised models such as random forest and k means clusters. I have also done some regression analysis and used libraries such as pandas, numpy and scikit learn. Because of this I am used to working in jupyter notebooks and would love the opportunity to pursue this further
+
+### Geospatial tools
+
+My geosptaial knowledge started within my role at network rail and led me to pursue a masters at UCL. I completed an Msc in Urban spatial science in which gave me a strong foundation in geospatial analysis and also allowed me to improve my autonomous skills to meet deadline and choose suitable projects. Because of this I have used a vast range of geospatial data and have a knowledge of many areas, including networks, remote sensing and data science.
+
+I used geospatial tools in an applied asset-heavy environment at **Network Rail**. There, I worked with GIS specialists on mapping over 3000 miles of track for the Southern route, helping turn asset and engineering data into more useful visual reporting. I used tools such as **ArcGIS, QGIS**, and map-based visualisation approaches, and I also integrated **Mapbox visuals into Power BI reports** so stakeholders could see issues spatially rather than just in tables. That was especially useful for visualising track-related issues and helping teams understand where problems or risk-related areas were concentrated across the network.
+
+### MS access & databricks
+
+-   no formal application but have planned time on courses starting next week.
+
+    Training for access: [here](https://support.microsoft.com/en-us/office/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6)
+
+    Training for databricks: [here](https://learn.microsoft.com/en-us/training/paths/data-engineer-azure-databricks/)
+
+## Asset based environments
+
+### BI reports 
+
+I\'ve worked in an asset-based environment through my role at **Network Rail**, where the data and reporting were closely tied to physical infrastructure and operational performance. That meant working with engineering and operational datasets linked to the rail network, and helping teams understand where issues, risks, or constraints were appearing across the assets. I think that experience is relevant because it taught me how to use data not just for reporting, but to support decisions in a complex infrastructure setting
+
+One of my main responsibilities at Network Rail was supporting Kent and Sussex track teams through BI reporting. I integrated over 15 data sources into Power BI and used performance measures such as KPIs, speed restrictions, and risk-related reporting to help stakeholders understand how the network was performing. Stakeholders could move away from manual reporting and instead use a more consistent view of performance to prioritise work and track issues over time.
+
+## Maintenance & communication
+
+-   Maintaining existing data management processes, how have you done this before?
+
+    > Making sure I understand the process end to end, where data comes from, how its transformed, who will be using and where are the risks.
+    >
+    > You have had a Microsoft one note diary recording of your systematic review to track when changes were made and what the change was.
+    >
+    > Understanding of existing data management processes by communicating and organising meetings with data teams and stakeholders to understand unfamiliar data
+    >
+    > Creating very transparent and available documents for stakeholders and personal use (available in sharepoint) to explain data
+    >
+    > Monitoring key data quality metrics in automated BI report that assesses weekly, quarterly and yearly performance against previous entry.
+
+-   What metrics did you use to present this information? List all the tools, charts and visualisations.
+
+    > ### Data quality metrics
+    >
+    > -    missing values / null counts
+    >
+    > -    duplicate records
+    >
+    > -    invalid or out-of-range values
+    >
+    > -    consistency of categories / naming
+    >
+    > -    unexpected period changes
+    >
+    > -    completeness by source or region
+    >
+    > -    refresh success / failed updates
+    >
+    > -    record counts compared with previous periods
+    >
+    > -    percentage change against prior week / quarter / year
+    >
+    > -    exception counts / flagged anomalies
+    >
+    > ### Performance metrics
+    >
+    > -    KPI movement over time
+    >
+    > -    period-on-period comparisons
+    >
+    > -    count of issues / restrictions / events
+    >
+    > -    trend direction
+    >
+    > -    thresholds breached
+    >
+    > -    concentration by area / route / asset group
+    >
+    > -    backlog / open vs resolved items
+    >
+    > -    performance against target
+
+-   List example of collaboration
+
+    > Network rail vegetation BI report, how you used an iterative continuous improvement process
+
+## Producing detailed reports
+
+I\'ve produced detailed reports in both professional and academic settings. I\'m comfortable adapting the level of detail depending on the audience. At Network Rail, that involved developing reports and presentations based on engineering and operational data. As the aim was to make complex information clear enough for stakeholders to act on. It was important to present the detail accurately while still making the key messages easy to understand.
+
+During my master\'s, I also worked on group projects where we had to take technical analysis and present it in a structured and professional way. That helped me build confidence in explaining analytical work clearly. In my dissertation, I worked closely with industry experts to shape the focus of the project and make sure the outputs were relevant as well as technically robust. That experience taught me that producing a strong report is not just about analysis it\'s also about understanding the audience, communicating clearly, and making the findings useful.

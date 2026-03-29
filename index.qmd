@@ -2,7 +2,7 @@
 
 Hi!
 
-I'm Andrio, I received a pre-call screening for the performance and risk analyst role here at ThamesWater. I wanted to be proactive and have all my research, preparation and skills in this Quarto book to show my fit for the role. I want to show a balance between my skills so I have written the project to be candid and show my thought process between each chapter. \
+I'm Andrio, I received a pre-call screening for the performance and risk analyst role here at ThamesWater. I wanted to be proactive and have all my research, preparation and skills in this Quarto book. This is meant to be candid and for my personal use. As such it will show my thought process between each chapter and also my (amazing) personality. \
 \
 I hope whoever reads this enjoys (including myself)!
 

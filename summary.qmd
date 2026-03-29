@@ -1,7 +1,89 @@
-# Summary
+# Research 
 
-In summary, this book has no content whatsoever.
+An exciting part of this process is finding out information I didn't already know about Thames Water. I wanted to understand the company through the Andrio Emilio lense and find someinteresting case studies!
 
-```{r}
-1 + 1
+## Company overview 
+
+*"Every day, we serve 16 million customers across London and the Thames Valley. From that first cup of tea in the morning through to baths at bedtime.*
+
+*As well as supplying water to your taps, we take wastewater away. We collect and treat sewage, returning clean water to our rivers.*
+
+*Delivering [life\'s essential service](https://www.thameswater.co.uk/about-us/thames-water-explained), so our customers, communities and environment can thrive. We're here to keep taps flowing for generations to come. Find out more about how we're [upgrading our network](https://www.thameswater.co.uk/about-us/our-biggest-upgrade)."*
+
+It is a very informative site, compiling pollution reduction, environmental information, five year plans and assessing performance.
+
+-   Open data strategy, so data is freely available for everyone to access.
+
+-   PR24 five year plan 2025 - 2030. Involving strategy, cost efficiency, expected outcomE and data models.
+
+-   Biggest upgrade in 150 years with 20 planned investment focused on reducing pollution protecting water quality and installing over 1 million more smart meters.
+
+-   Digital pages talk about building an **enterprise data platform** on **Databricks Lakehouse**
+
+## Team focus 
+
+Why is an asset performance analyst essential?
+
+*"Asset performance metrics form the foundation of data-driven maintenance, providing continuous visibility into equipment reliability, maintenance efficiency, and operational trends that would otherwise remain hidden.*
+
+*Tracking the right metrics connects maintenance activities to business outcomes, helping teams reduce unplanned downtime, control costs, extend equipment life, and demonstrate measurable value to leadership.*
+
+*Advanced software platforms automate metric collection and analysis, replacing manual spreadsheets with real-time dashboards, AI-powered insights, and integrated workflows that turn data into action.*"
+
+**Assessing performance and behaviour, what does this mean for Thames Water?**
+
+[Performance is about how well the asset is doing]{.underline}
+
+[Behaviour is about the pattern of how the asset acts\
+]{.underline}
+
+For performance:
+
+-    how well is it doing?
+
+-    is it meeting expected standards?
+
+-    how many incidents / failures / downtime events are there?
+
+For behavioural:
+
+-    what pattern does it show?
+
+-    when does it tend to go wrong?
+
+-    under what conditions does it behave differently?
+
+-    is there a recurring operating signature that suggests risk?
+
+### Why this is important
+
+## Case studies
+
+## Policy, ethics and competences 
+
+-   **Take care**
+
+```{=html}
+<!-- -->
 ```
+-    **Passionate about everything we do**
+
+```{=html}
+<!-- -->
+```
+-    **Be respectful and value everyone**
+
+```{=html}
+<!-- -->
+```
+-    **Reach higher, be better**
+
+```{=html}
+<!-- -->
+```
+-    **Take ownership**
+
+```{=html}
+<!-- -->
+```
+-    **Be proud, Be blue / Team Thames**

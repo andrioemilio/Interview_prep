@@ -1,0 +1,15 @@
+-   Undertaking performance and behavioural analysis on waste network assets
+
+-    Interventions are actively tracked to ensure timely and effective delivery against planned outcomes.
+
+-   Using thameswater total daily flow data - multiple years.
+
+    -   How would you clean this data set, think by column, transforming the data types making sure is numerical etc etc, making sure data is input correctly.
+
+    -   How would you then make use of a vlookup
+
+    -   Make use of conditional formatting
+
+    -   Make use of pivot tables and charts
+
+    -   Then introduce multiple years.
