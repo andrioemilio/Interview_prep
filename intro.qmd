@@ -12,7 +12,7 @@ I have been using excel in the workplace for nearly 10 years now. In my first ro
 
 ### SQL
 
-I have used SQL in tandem with power BI to connect and refresh data for the use of weekly, monthly and annual reports at my role in Network rail. I have completed several modules during my masters study that used SQL. These focused upon creating spatial databases as well as spatial joins. Since, I have completed a 7 week analyst course in which practical application of SQL was used. This involved using SQL to connect to databases, create data, create tables, transfor data, merge, join & append.
+I have used SQL in tandem with power BI to connect and refresh data for the use of weekly, monthly and annual reports at my role in Network rail. I have completed several modules during my masters study that used SQL. These focused upon creating spatial databases as well as spatial joins. Since, I have completed a 7 week analyst course in which practical application of SQL was used. This involved using SQL to connect to databases, create data, create tables, transform data, merge, join & append.
 
 ### Power BI
 

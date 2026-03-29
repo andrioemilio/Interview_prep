@@ -1,8 +1,8 @@
 # Excel
 
--   Undertaking performance and behavioural analysis on waste network assets
+On this page I want to complete some data cleaning, transformation and analysis using Thames Water flows data. I will be attempting to answer the questions listed below:
 
--    Interventions are actively tracked to ensure timely and effective delivery against planned outcomes.
+## Plan
 
 -   Using thameswater total daily flow data - multiple years.
 
@@ -14,4 +14,34 @@
 
     -   Make use of pivot tables and charts
 
-    -   Then introduce multiple years.
+    -   Then introduce multiple years data and trends
+
+## Questions
+
+### 1 How would you prepare this dataset for analysis?
+
+-   Check data types (dates, numeric flow)
+
+-   Handle missing values / gaps
+
+-   Remove duplicates
+
+-   Standardise date format
+
+-   Check for outliers / impossible values
+
+-   Ensure consistent units
+
+### 2 How would you combine this dataset with additional information 
+
+-   Using vlookup to join with another data type
+
+### 3 How would you analyse flow over time?
+
+-   pivot table and charts
+
+-   year on year comparison
+
+### 4 How would you identify possible risks or anomalies in this data? 
+
+### 5 What key metrics would you create to monitor performance

@@ -1,1 +1,5 @@
 # SQL
+
+On this page I want to show how I can confidently query data in already existing databases as well as creating my own. I also want to show how I can create scripts that filter and transform data within SQL, join and further uses in Power BI and Python.
+
+## Questions 

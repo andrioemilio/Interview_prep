@@ -2,43 +2,53 @@
 
 ## Questions
 
-### 1 "Can you talk me through your background?"
+### 1 Can you talk me through your background?
 
 I started working in data during my undergraduate degree. In my first year I scored 100% in a business statistics module and this led me to change my degree to analytics. I then sought experience in a Leeds based startup alongside my degree during the second and 3rd year. In this role I was a data researcher and processor. This meant collecting, cleaning, transforming and creating charts for councils using ONS and local authority data. Because of this experience in excel I started my first graduate role and imperial college london. Wherein in the first week my manager gave me a huge power BI book, said learn as much as you can and by the end of the second week I want to see a report from you. This led me to learn power BI and has been a staple for my work. It was especially important as i started my role at network rail, learning asset and engineering data, how to visualise these metrics and understand what data insights stakeholders want to see! With this I got the oportunity to work alongside a lead geospatial scientist, and led to a power BI project of mapping asset faults spatially. This introduced me to geospatial analysis in which I studied a masters in at UCL and scored a distinction.
 
-### 2 "Why are you interested in this role?"
+### 2 Why are you interested in this role?
 
 Im interested in the role as it has both familiarity in working within an asset data based environment but also the opportunity to learn how to apply the skills I have learnt and be a part of a winder data team to work for real world data problems to which I can see a clear benefit. I think in the past, especially during my masters degree, I learnt that working alongside stakeholders and experts who wanted to know more about the data in an industry they have expertise in knowing I could do just that. I also think this is a position where I can develop my analytical skills further and keep learning, especially within databricks.
 
 I'm also drawn to the scale and complexity of the organisation. It's the kind of environment where you have to think carefully, work collaboratively, and make decisions that are both practical and responsible. That really appeals to me, because I enjoy roles where I can contribute in a structured way, take ownership of my work, and help improve how things are done.
 
-### 3 "What attracted you to a role in asset operations / wastewater / utilities?"
+### 3 What attracted you to a role in asset operations / wastewater / utilities?
 
 The basis for my application is my prior skills in an asset based environment at network rail. Since this role I have explored other areas within data, including geospatial analysis and research intensive roles. Now I feel that my skills in insight, visualisation and communicating this is well geared toward a role at Thames Water
 
-### 4 "This is a 1-year fixed-term contract are you comfortable with that?
+### 4 This is a 1-year fixed-term contract are you comfortable with that?
 
 Yes, this gives me a goal to garner and hone my skills before i commit to the next opportunity.
 
-### 5 "How strong are you in SQL?"
+### 5 How strong are you in SQL?
 
 I have experience, creating, querying and transforming data in SQL. In the past I have used SQL to spatially join, extract data for power BI usage and experiment. I have developed a small project on this page to show my basic understanding of SQL. I have also undergone refresher courses to make sure I have the baseline for success in this role.
 
-### 6 **"What kinds of queries / transformations have you written?"**
+### 6 **What kinds of queries / transformations have you written?**
 
-### 7 "How have you used Power BI in previous roles?"
+### 7 How have you used Power BI in previous roles?
 
 STAR Example
 
 Situation
 
+In my role at network rail, my bi reports had gained traction. A colleague from the vegetation team wanted some monthly reported visuals to be produced without the need for him to chase data.
+
 Task
+
+My task was a start to finish BI report for the vegetation team. I had to understand the data, how and where the data is ussually stored and what the data insights are used for in the team. One of the main goals was for me to give the BI report to the vegetation team where they could understand how to use the visuals with the familiarity of previous insights.
 
 Action
 
+This led me to an iterative process. To understand the data I asked the colleague what insights he usually extracts and what he would further like this to be. I also showed him previous BI reports and asked him what visuals he tended to like or understood. We both agreed that charts and visuals that show the insights explicitly were great, and we adapted some simple charts further on with instruction pages and tooltips to aid the end user. He also found mapping vegetation issues to be life changing, he then recognised where on track issues were and this reminded him as to reasons why (i.e. part of the track being narrow orforested area. Another part of this process was his manual input of data, he found this frustrating and time consuming. I understand that the data was recorded in excel and stored in sharepoint. With power bi I showed him that I could automatically do his time consuming transformations and data cleaning.
+
 Result
 
-### 8 "What dashboards or management reports have you built?"
+The result was a fully automated power BI report that had clear simple visuals that my colleague could use to show the performance of vegetation removal efforts. It also allowed him more free time to allocate on tasks.
+
+### 8 What dashboards or management reports have you built?
+
+-   Asset based reporting track faults project at network rail
 
 S
 
@@ -48,7 +58,31 @@ A
 
 R
 
-### 9 "Tell me about a time you turned complex analysis into an actionable recommendation."
+### 9 Tell me about a time you turned complex analysis into an actionable recommendation.
+
+-   Working with Thames reach for dissertation
+
+S
+
+In my dissertation, I was investigating how built-environment features and perceptions of safety were linked to rough sleeping patterns in London. The project involved combining person-level referral data with street-level image data and spatial information, which made the analysis quite complex. The challenge was that there were lots of possible variables and patterns, the end goal was to generate insights that could actually be useful for policy and intervention with charities such as thamesreach.
+
+T
+
+My task was to analyse this complex, multi-source dataset and identify which environmental factors were most strongly associated with rough sleeping locations, then translate that into recommendations that would be understandable and relevant for a non-technical audience at Thames Reach
+
+A
+
+To do that, I brought together multiple datasets, including geospatial referral data and street-level image-based measures of the urban environment. I used methods like clustering to identify different types of rough sleeping locations, spatial autocorrelation measures such as Moran's I to understand patterns in the data, and random forest models to explore which built-environment and perceived-safety variables were most predictive.
+
+Because the outputs were quite technical and there were ethical sensitivities around oversimplifying homelessness. I focused on identifying the main patterns, checking that the findings were robust, and then translating them into clear messages about which environmental characteristics were associated with higher concentrations of rough sleeping and assessing this throughout current policy.
+
+R
+
+The outcome was that I was able to turn a complex and highly multidimensional analysis into a practical recommendation: that interventions should be more spatially targeted, and that local authorities and support services could use environmental and perceptual indicators to help prioritise areas for outreach and prevention.
+
+I scored a distinction. (yay)
+
+### 10 How do you present data to non-technical stakeholders?
 
 S
 
@@ -58,7 +92,7 @@ A
 
 R
 
-### 10 "How do you present data to non-technical stakeholders?"
+### 11 How do you handle situations where stakeholders want different things from the data?
 
 S
 
@@ -68,17 +102,7 @@ A
 
 R
 
-### 11 "How do you handle situations where stakeholders want different things from the data?"
-
-S
-
-T
-
-A
-
-R
-
-### 12 "Can you give an example of influencing action through reporting or insight?"
+### 12 Can you give an example of influencing action through reporting or insight?
 
 ### 13 How do you deal with data quality problems?
 
@@ -88,28 +112,66 @@ R
 
 ### 16 Tell me about a time you identified a risk or performance issue from data.
 
-### 17 "What kinds of statistical modelling have you done?"
+### 17 What kinds of statistical modelling have you done?
 
 My experience ranges from practical operational analysis to more formal modelling. In academic and research settings, I've used Python-based modelling, geospatial analysis and machine learning approaches to identify patterns and relationships in data. In more operational roles, statistical modelling has been more about trend analysis, KPI monitoring, anomaly detection, and identifying where performance patterns may indicate risk or require further investigation.
 
-### 18 **The role mentions statistical modelling. What does that mean to you in practice?"**
+### 18 **The role mentions statistical modelling. What does that mean to you in practice?**
 
-**Response:**\
-"To me, statistical modelling in practice is about using data in a structured way to understand performance, identify patterns, and support decisions. It can include more advanced predictive techniques, but in many operational roles it also means applying methods like trend analysis, KPI monitoring, and anomaly detection. Trend analysis is about looking at how a metric changes over time to understand whether performance is stable, improving, or deteriorating. KPI monitoring is about tracking the most important measures against targets, thresholds, or expected ranges so it is clear where performance is on track and where it may need attention. Anomaly detection is about spotting values or patterns that fall outside what would normally be expected, which can help flag possible operational issues, emerging risk, or data quality problems. So overall, I'd describe statistical modelling as using data systematically to move beyond simple reporting and help identify where further investigation or action may be needed."
+\
+Statistical modelling in practice is about using data in a structured way to understand performance, identify patterns, and support decisions. It can include more advanced predictive techniques, but in many operational roles it also means applying methods like trend analysis, KPI monitoring, and anomaly detection. Trend analysis is about looking at how a metric changes over time to understand whether performance is stable, improving, or deteriorating. KPI monitoring is about tracking the most important measures against targets, thresholds, or expected ranges so it is clear where performance is on track and where it may need attention. Anomaly detection is about spotting values or patterns that fall outside what would normally be expected, which can help flag possible operational issues, emerging risk, or data quality problems. So overall, I'd describe statistical modelling as using data systematically to move beyond simple reporting and help identify where further investigation or action may be needed.
 
-### **19 Can you explain a time when you had to analyze a complex set of data and make recommendations based on your findings?**
+### **19 Can you explain a time when you had to analyse a complex set of data and make recommendations based on your findings?**
+
+S
+
+For my MSc dissertation at UCL, I focused on homeless rough sleepers and displacement across London boroughs. The project involved working with sensitive geospatial referral data gathered through collaboration with Thames Reach and the StreetLink application. It was a complex problem because I wasn't just analysing one dataset I was trying to understand a real-world social issue by combining spatial data, environmental context, and policy considerations around homelessness and displacement
+
+T
+
+My task was to build a robust analytical approach that could identify patterns in rough sleeper movement and the environments associated with displacement, while making sure the work was ethically sound, anonymised, and useful for stakeholders. I also needed to go beyond pure modelling and think about the policy relevance of the findings, in other words, what the results meant for homelessness outreach and decision-making.
+
+A
+
+I started by carefully preparing and structuring the referral and geospatial data, making sure anonymity and data security were maintained throughout. I then used Python, including tools such as pandas, numpy and scikit-learn, to build analytical models that combined geospatial analysis with computer vision methods. The aim was to link features of the built environment to possible migration or displacement patterns among rough sleepers.
+
+Alongside the modelling, I interpreted the findings in a wider policy context. I looked at what the patterns might suggest about displacement, how environments may influence movement, and how those insights could support outreach services. So it wasn't just a technical exercise it was also about translating the outputs into something meaningful and responsible for real-world use.
+
+I then presented the findings clearly to homeless outreach workers, focusing on the practical implications and making sure the recommendations were understandable to non-technical stakeholders.
+
+R
+
+The result was a robust and novel model that helped predict the flow of rough sleepers in cases of displacement, while maintaining strong data anonymity and security. More importantly, the work gave outreach workers a better understanding of the kinds of environments rough sleepers may migrate through when displaced, which made the findings practically useful as well as analytically strong. I think that project showed that I can handle complex data, build models, and also connect the findings back to policy and stakeholder needs.
 
 ### **20. How would you handle disagreements with management about your analysis?**
 
+This has happened in the past, especially between stakeholders with expert knowledge. An example of this is when creating BI reports for network rail. I found that having clear communication of what insight the data should show is imperative to create insights.
+
 ### **21 What methods do you use to ensure data accuracy?**
+
+Before analysing any data you must ensure it's cleaned up by removing any duplicates, correcting any errors, and dealing with any missing data. Use various data validation techniques to ensure the data's integrity. For me, it's better to take time to ensure the data is accurate rather than rush and make decisions based on inaccurate data.
+
+S
+
+T
+
+A
+
+R
 
 ### **22 How do you ensure that your analytics reports are easily understood by non-analytic professionals?**
 
+When preparing reports, focus on simplicity and clarity. Use visual aids such as charts and graphs to present data, as they are easier to understand. I also avoid jargon and explain all technical terms. Above all, I ensure that the key findings and recommendations are clearly highlighted.
+
 ### **23 How do you ensure that your analytics reports are easily understood by non-analytic professionals?**
+
+"*Therefore, when preparing my reports, I focus on simplicity and clarity. I use visual aids such as charts and graphs to present data, as they are easier to understand. I also avoid jargon and explain all technical terms. Above all, I ensure that the key findings and recommendations are clearly highlighted*."
 
 ### **24 What experience do you have with data visualization tools?**
 
 ### **25 How do you handle large data sets?**
+
+"first use data wrangling techniques to clean and organise the data. I then use tools such as SQL for data extraction and Python for data analysis. These tools have been effective in managing large data sets and ensuring accurate analysis."
 
 ### **26 Can you describe a situation where you had to use analytical skills to solve a problem?**
 
@@ -123,14 +185,12 @@ My experience ranges from practical operational analysis to more formal modellin
 
 ### **31 How do you validate the reliability and consistency of your data?**
 
-Tell us about a time you did team work? Tell us when you used initiative? Tell us about a time you had to draft something from scratch?
-
 ### **32 How have you monitored data quality metrics in reporting?"**
 
-**Response:**\
-"I've approached that by building reporting that does not only show performance outcomes, but also helps assess whether the data and metrics are behaving as expected over time. For example, I'd look at consistency across weekly, quarterly, and yearly reporting periods, compare current entries against previous ones, and flag unexpected changes, missing values, unusual spikes, or inconsistencies. The purpose is to make it easier to distinguish between a genuine operational change and something that may be a data issue."
+I've approached that by building reporting that does not only show performance outcomes, but also helps assess whether the data and metrics are behaving as expected over time. For example, I'd look at consistency across weekly, quarterly, and yearly reporting periods, compare current entries against previous ones, and flag unexpected changes, missing values, unusual spikes, or inconsistencies. The purpose is to make it easier to distinguish between a genuine operational change and something that may be a data issue.
 
 ### **33 What have you done to keep data processes organised and reliable?"**
 
-**Response:**\
-"I usually approach that in three parts. First, I build understanding by speaking to the people closest to the data, especially when a dataset or process is unfamiliar. That helps me understand the source, logic, and any known issues. Second, I document things clearly, both for myself and for others, so there's transparency around definitions, changes, and assumptions. For example, I've kept structured change records in OneNote and created clear reference documents for stakeholders in shared spaces like SharePoint. Third, I monitor the outputs through reporting and data quality checks, so if something changes or degrades, it can be picked up early."
+I usually approach that in three parts. First, I build understanding by speaking to the people closest to the data, especially when a dataset or process is unfamiliar. That helps me understand the source, logic, and any known issues. Second, I document things clearly, both for myself and for others, so there's transparency around definitions, changes, and assumptions. For example, I've kept structured change records in OneNote and created clear reference documents for stakeholders in shared spaces like SharePoint. Third, I monitor the outputs through reporting and data quality checks, so if something changes or degrades, it can be picked up early.
+
+### 34 Explain your employment gap / why did you leave your last role

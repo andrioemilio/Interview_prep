@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<head>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
 
-<meta charset="utf-8" />
-<meta name="generator" content="quarto-1.4.551" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ThamesWater Andrio Emilio application – Excel</title>
+<title>ThamesWater Andrio Emilio application - Excel</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,7 +22,28 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-<!-- htmldependencies:E3FAD763 -->
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./SQLStudy.html" rel="next">
+<link href="./prep.html" rel="prev">
+<link href="./images/logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,27 +80,25 @@ background-size: cover;
 </style>
 
 
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="/index.html" class="navbar-brand navbar-brand-logo">
-    <img src="/images/logo.png" alt="" class="navbar-logo" />
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="/index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">ThamesWater Andrio Emilio application</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-  aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"
-  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -89,89 +106,25 @@ background-size: cover;
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
-    <a href="https://github.com/andrioemilio/Interview_prep"  title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/andrioemilio/Interview_prep" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn"
-      data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" 
-      aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
-      onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <h1 class="quarto-secondary-nav-title no-breadcrumbs"></h1>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" 
-        aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
-        onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ExcelStudy.html"><span class="chapter-title">Excel</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class='chapter-number'>1</span>  <span class='chapter-title'>Past experience</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class='chapter-number'>2</span>  <span class='chapter-title'>Research</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/prep.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class='chapter-number'>3</span>  <span class='chapter-title'>Preparation</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/ExcelStudy.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class='chapter-number'>4</span>  <span class='chapter-title'>Excel</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/SQLStudy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class='chapter-number'>5</span>  <span class='chapter-title'>SQL</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/PowerBIStudy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class='chapter-number'>6</span>  <span class='chapter-title'>Power BI</span></span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" ></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <div id="quarto-toc-target"></div>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-  <div class="quarto-title-banner">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title"><span class="chapter-title">Excel</span></h1>
                       </div>
@@ -186,30 +139,128 @@ background-size: cover;
     </div>
     
   
-  </header>
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Past experience</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Research</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./prep.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Preparation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ExcelStudy.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Excel</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SQLStudy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">SQL</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./PowerBIStudy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Power BI</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#plan" id="toc-plan" class="nav-link active" data-scroll-target="#plan">Plan</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a>
+  <ul class="collapse">
+  <li><a href="#how-would-you-prepare-this-dataset-for-analysis" id="toc-how-would-you-prepare-this-dataset-for-analysis" class="nav-link" data-scroll-target="#how-would-you-prepare-this-dataset-for-analysis">1 How would you prepare this dataset for analysis?</a></li>
+  <li><a href="#how-would-you-combine-this-dataset-with-additional-information" id="toc-how-would-you-combine-this-dataset-with-additional-information" class="nav-link" data-scroll-target="#how-would-you-combine-this-dataset-with-additional-information">2 How would you combine this dataset with additional information</a></li>
+  <li><a href="#how-would-you-analyse-flow-over-time" id="toc-how-would-you-analyse-flow-over-time" class="nav-link" data-scroll-target="#how-would-you-analyse-flow-over-time">3 How would you analyse flow over time?</a></li>
+  <li><a href="#how-would-you-identify-possible-risks-or-anomalies-in-this-data" id="toc-how-would-you-identify-possible-risks-or-anomalies-in-this-data" class="nav-link" data-scroll-target="#how-would-you-identify-possible-risks-or-anomalies-in-this-data">4 How would you identify possible risks or anomalies in this data?</a></li>
+  <li><a href="#what-key-metrics-would-you-create-to-monitor-performance" id="toc-what-key-metrics-would-you-create-to-monitor-performance" class="nav-link" data-scroll-target="#what-key-metrics-would-you-create-to-monitor-performance">5 What key metrics would you create to monitor performance</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/andrioemilio/Interview_prep/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
+
+
+
+<p>On this page I want to complete some data cleaning, transformation and analysis using Thames Water flows data. I will be attempting to answer the questions listed below:</p>
+<section id="plan" class="level2">
+<h2 class="anchored" data-anchor-id="plan">Plan</h2>
 <ul>
-<li><p>Undertaking performance and behavioural analysis on waste network assets</p></li>
-<li><p> Interventions are actively tracked to ensure timely and effective delivery against planned outcomes.</p></li>
 <li><p>Using thameswater total daily flow data - multiple years.</p>
 <ul>
 <li><p>How would you clean this data set, think by column, transforming the data types making sure is numerical etc etc, making sure data is input correctly.</p></li>
 <li><p>How would you then make use of a vlookup</p></li>
 <li><p>Make use of conditional formatting</p></li>
 <li><p>Make use of pivot tables and charts</p></li>
-<li><p>Then introduce multiple years.</p></li>
+<li><p>Then introduce multiple years data and trends</p></li>
 </ul></li>
 </ul>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden" data-render-id="quarto-int-sidebar-title">AE application</span> <span class="hidden" data-render-id="quarto-int-navbar-title">ThamesWater Andrio Emilio application</span> <span class="hidden" data-render-id="quarto-int-next"><span class="chapter-number">5</span>  <span class="chapter-title">SQL</span></span> <span class="hidden" data-render-id="quarto-int-prev"><span class="chapter-number">3</span>  <span class="chapter-title">Preparation</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/index.htmlPreface">Preface</span> <span class="hidden" data-render-id="quarto-int-sidebar:/intro.html&lt;span-class=&#39;chapter-number&#39;&gt;1&lt;/span&gt;--&lt;span-class=&#39;chapter-title&#39;&gt;Past-experience&lt;/span&gt;"><span class="chapter-number">1</span>  <span class="chapter-title">Past experience</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/summary.html&lt;span-class=&#39;chapter-number&#39;&gt;2&lt;/span&gt;--&lt;span-class=&#39;chapter-title&#39;&gt;Research&lt;/span&gt;"><span class="chapter-number">2</span>  <span class="chapter-title">Research</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/prep.html&lt;span-class=&#39;chapter-number&#39;&gt;3&lt;/span&gt;--&lt;span-class=&#39;chapter-title&#39;&gt;Preparation&lt;/span&gt;"><span class="chapter-number">3</span>  <span class="chapter-title">Preparation</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/ExcelStudy.html&lt;span-class=&#39;chapter-number&#39;&gt;4&lt;/span&gt;--&lt;span-class=&#39;chapter-title&#39;&gt;Excel&lt;/span&gt;"><span class="chapter-number">4</span>  <span class="chapter-title">Excel</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/SQLStudy.html&lt;span-class=&#39;chapter-number&#39;&gt;5&lt;/span&gt;--&lt;span-class=&#39;chapter-title&#39;&gt;SQL&lt;/span&gt;"><span class="chapter-number">5</span>  <span class="chapter-title">SQL</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/PowerBIStudy.html&lt;span-class=&#39;chapter-number&#39;&gt;6&lt;/span&gt;--&lt;span-class=&#39;chapter-title&#39;&gt;Power-BI&lt;/span&gt;"><span class="chapter-number">6</span>  <span class="chapter-title">Power BI</span></span> <span class="hidden" data-render-id="quarto-navbar-tools:https://github.com/andrioemilio/Interview_prep">https://github.com/andrioemilio/Interview_prep</span> <span class="hidden" data-render-id="quarto-breadcrumbs-&lt;span-class=&#39;chapter-number&#39;&gt;4&lt;/span&gt;--&lt;span-class=&#39;chapter-title&#39;&gt;Excel&lt;/span&gt;"><span class="chapter-number">4</span>  <span class="chapter-title">Excel</span></span></p>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden" data-render-id="quarto-metatitle">ThamesWater Andrio Emilio application - <span class="chapter-title">Excel</span></span> <span class="hidden" data-render-id="quarto-twittercardtitle">ThamesWater Andrio Emilio application - <span class="chapter-title">Excel</span></span> <span class="hidden" data-render-id="quarto-ogcardtitle">ThamesWater Andrio Emilio application - <span class="chapter-title">Excel</span></span> <span class="hidden" data-render-id="quarto-metasitename">ThamesWater Andrio Emilio application</span> <span class="hidden" data-render-id="quarto-twittercarddesc"></span> <span class="hidden" data-render-id="quarto-ogcardddesc"></span></p>
-</div>
+</section>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions</h2>
+<section id="how-would-you-prepare-this-dataset-for-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="how-would-you-prepare-this-dataset-for-analysis">1 How would you prepare this dataset for analysis?</h3>
+<ul>
+<li><p>Check data types (dates, numeric flow)</p></li>
+<li><p>Handle missing values / gaps</p></li>
+<li><p>Remove duplicates</p></li>
+<li><p>Standardise date format</p></li>
+<li><p>Check for outliers / impossible values</p></li>
+<li><p>Ensure consistent units</p></li>
+</ul>
+</section>
+<section id="how-would-you-combine-this-dataset-with-additional-information" class="level3">
+<h3 class="anchored" data-anchor-id="how-would-you-combine-this-dataset-with-additional-information">2 How would you combine this dataset with additional information</h3>
+<ul>
+<li>Using vlookup to join with another data type</li>
+</ul>
+</section>
+<section id="how-would-you-analyse-flow-over-time" class="level3">
+<h3 class="anchored" data-anchor-id="how-would-you-analyse-flow-over-time">3 How would you analyse flow over time?</h3>
+<ul>
+<li><p>pivot table and charts</p></li>
+<li><p>year on year comparison</p></li>
+</ul>
+</section>
+<section id="how-would-you-identify-possible-risks-or-anomalies-in-this-data" class="level3">
+<h3 class="anchored" data-anchor-id="how-would-you-identify-possible-risks-or-anomalies-in-this-data">4 How would you identify possible risks or anomalies in this data?</h3>
+</section>
+<section id="what-key-metrics-would-you-create-to-monitor-performance" class="level3">
+<h3 class="anchored" data-anchor-id="what-key-metrics-would-you-create-to-monitor-performance">5 What key metrics would you create to monitor performance</h3>
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -764,18 +815,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a  href="/prep.html" class="pagination-link" aria-label="Preparation">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class='chapter-number'>3</span>  <span class='chapter-title'>Preparation</span></span>
+      <a href="./prep.html" class="pagination-link" aria-label="Preparation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Preparation</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a  href="/SQLStudy.html" class="pagination-link" aria-label="SQL">
-        <span class="nav-page-text"><span class='chapter-number'>5</span>  <span class='chapter-title'>SQL</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./SQLStudy.html" class="pagination-link" aria-label="SQL">
+        <span class="nav-page-text"><span class="chapter-title">SQL</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
 
-</body>
 
-</html>
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/andrioemilio/Interview_prep/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
